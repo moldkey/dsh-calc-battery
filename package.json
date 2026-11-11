@@ -1,0 +1,16 @@
+{
+  "name": "@liangjiehappy/dsh-calc-battery",
+  "version": "0.1.0",
+  "description": "算设备电池能用多久。输入容量、功耗，或反推需要的电池容量。纯本地计算，不联网。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "calc", "calculator", "battery", "计算器"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-calc-battery.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

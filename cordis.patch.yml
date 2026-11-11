@@ -1,0 +1,4 @@
+# 电池续航计算
+- insert:
+    - id: dsh-calc-battery
+      name: "@liangjiehappy/dsh-calc-battery"
